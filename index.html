@@ -1,49 +1,102 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh">
     <head>
-        <meta charset="utf-8">
-        <title>艺琳的个人介绍</title>
-        <style>
-        body
-        {
-            background-image:url(img/背景2.jpg);
-            background-size:cover;
-        }
-        div.transbox
-        {
-            width: 1050px;
-            height: 420px;
-            margin: 90px 90px;
-            background-color: #ffffff:
-            border: 1px solid #FFFFFF;
-            opacity:0.8;
-        }
-        h1 {text-align: center;}
-        h2.ex1 {margin-left:5cm;)
-        h3.ex1{margin-left:5cm;)
-        img.ex1{margin-left:5cm;}
-        p{text-align: right;}
-        p.ex1{margin-right:2cm;}p{color:mediumpurple}
-               
-        /*cc:change color*
-        a.cc:visited {color:#0000ff;}
-        a.cc:hover {color:#ffcc00;}
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <style type="text/css">
+            #tab td:first-child {
+                min-width: 200px;
+                text-align: center;
+            }
+
+            #tab td:nth-child(2) {
+                width: 400px;
+                padding: 0 40px;
+                line-height: 40px;
+            }
+
+            #tab1 td {
+                height: 40px;
+                line-height: 40px;
+            }
         </style>
-</head>
-<body>
-    <div class="background">
-    <div class="transbox">
-        
-        <h1>个人简介</h1>
-        <img src="img/头像.jpg" height="50px" width="50px" class="ex1" />
-        <h2 class="ex1">刘艺琳</h2>
-        <h3 class="ex1">学号:3221863</h3>
-        <h3 class="ex1">班级:class1く/h3>
-        <h3 class="ex1">学院:跨学科+</h3>
-        <h3 class="ex1">学校:<a class="cc" href="http://https://www.ln.edu.hk//">香港]
-        <p class="ex1">school......</p>
+    </head>
+
+    <body>
+        <div class="body">
+            <!--nav-->
+            <div class="nav">
+                <div class="main">
+                    <ul>
+                        <li>
+                            <a href="#"><img src="images/logo.png" height="100%"></a>
+                        </li>
+                        <li>
+                            <a href="index.html">网站首页</a>
+                        </li>
+                        <li>
+                            <a href="index1.html" class="active">个人简介</a>
+                        </li>
+                        <li>
+                            <a href="index2.html">个人作品</a>
+                        </li>
+                        <li>
+                            <a href="index3.html">联系我</a>
+                        </li>
+                    <li>
+                            <a href="index4.html">会员登录</a>
+                        </li>
+                        <li>
+                            <a>
+                                <p class="search">
+                                    <input type="text" name="" id="" value="" placeholder="搜索" />
+                                </p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--nav-->
+            <!-- banner -->
+            <div class="main">
+                <div class="banner">
+                    <img src="images/banner1.jpg">
+                </div>
+                <table width="100%" border="1" align="center" cellpadding="0" cellspacing="0" id="tab">
+                    <tr>
+                        <td width="10%">个人头像</td>
+                        <td style="text-align: center;" width="10%">
+                            <img src="images/me.jpg" width="300">
+                        </td>
+                        <td colspan="2">
+                            <p style="line-height: 40px;padding: 10px 20px;">姓名:xxxxx </p>
+                            <p style="line-height: 40px;padding: 10px 20px;">专业:xxxx</p>
+                            <p style="line-height: 40px;padding: 10px 20px;">学号:xxxx</p>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>自我评价</td>
+                        <td colspan="3">
+                            xxxxx，来自山东省，就读于岭南大学，专业:mscct。平时喜欢摄影，旅行，听音乐。喜欢猫咪，养来一只英国短毛猫，在家时候经常撸猫。
+                            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="606" height="214">
+      <param name="movie" value="images/flash7291.swf" wmode="transparent" />
+      <param name="quality" value="high" />
+        <param  name="wmode" value="transparent" />
+      <embed src="images/flash7291.swf" quality="high" wmode="transparent"  pluginspage="http://www.macromedia.com/go/getflashplayer" type="application/x-shockwave-flash" width="606" height="214"></embed>
+    </object>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="foot">
+                &copy; Copyright 版权所有 
+            </div>
         </div>
-        </div>
-        <embed height="50" width="100" src="bgm/Sunburst.mp3">
     </body>
+
 </html>
